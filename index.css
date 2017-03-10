@@ -1,0 +1,395 @@
+/*
+	Site By: Billy Lam
+	Last Updated 5/23/16
+	Site Purpose: To show off figures and merch I've amassed and give reviews or gush about such and such.
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+	
+	max-width: 100%;
+    overflow-x: hidden;
+	padding-bottom: 5%;
+   
+}
+
+.main{
+	padding-top: 5%;
+	padding-left: 2%;
+	color: black;
+}
+
+.main2{
+	padding-top: 4%;
+	padding-left: 2%;
+	color: black;
+}
+
+.main3{
+	padding-top: 6%;
+	padding-left: 2%;
+	color: black;
+}
+
+.menu{
+    position: absolute;
+    font-size: 17pt;
+	text-align: center;
+    z-index: 9999;
+	width: 100%;
+}
+
+.menuPartTwo{
+    position: absolute;
+    font-size: 33pt;
+    text-align: center;
+	width: 100%;
+    z-index: 9999;
+	float: right;
+	
+}
+
+.menuPartThree{
+    position: absolute;
+    font-size: 33pt;
+    text-align: center;
+	width: 100%;
+    z-index: 9999;
+	float: right;
+	
+}
+
+.menu ul, .menuPartTwo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffc34d;
+}
+
+.menu ul, .menuPartThree ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.cart {
+	padding-right: 120px;
+}
+
+.Total {
+	padding-right: 120px;
+}
+
+.Checkout {
+	padding-right: 120px;
+}
+
+li {
+    float: right;	
+}
+
+li.left {
+	float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffaa00;
+}
+
+.new{
+	padding: 1%;
+	font-size: 45px;
+	color: black;
+}
+
+.price{
+	position: absolute;
+	font-size: 45px;
+	color: black;
+	right: 400px;
+    top: 500px;
+}
+
+.itemHead{
+	position: relative;
+	font-size: 45px;
+	color: black;
+	text-align: center;
+}
+
+.itemDescription{
+	position: relative;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+
+.home{
+	position: relative;
+	left: 300px;
+	top: 0px
+	
+}
+
+.image {
+	padding: 1%;
+	float: left;
+}
+
+.itemBlank {
+    position: relative;
+    float: left;
+	left: 0px;
+    top: 600px;
+}
+
+.addToCart{
+    position: absolute;
+    float: left;
+	right: 400px;
+    top: 600px;
+}
+
+.itemImage{
+	display: block;
+	margin: auto;
+	width: 32%;
+}
+
+.welcome {
+    background-color: skyblue;
+    padding: 50px 40px;
+    height: 300px;
+    width: 290px;
+    top: 289px;
+    left: 80%;
+    position: absolute;
+    float: right;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 5px 5px rgba(0,0,0,45);
+}
+
+.CategoryMAIN {
+    position: absolute;
+    width: 900px;
+    height: 620px;
+    top: 270px;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,45);
+}
+
+.Category1 {
+    padding: 50px 40px;
+    height: 300px;
+    width: 290px;
+    position: absolute;
+    left: 80px;
+    top: 65px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 5px 5px rgba(0,0,0,45);   
+}
+
+.Category2 {
+    padding: 50px 40px;
+    height: 300px;
+    width: 290px;
+    position: absolute;
+    left: 460px;
+    top: 65px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 5px 5px rgba(0,0,0,45);  
+}
+
+.formbody{
+    background-color: #ffc34d;
+    position: absolute;
+    top: 450px;
+    width: 800px;
+    height: 620px;
+    margin-left: 10px;
+    
+    margin-top: 20px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,45);
+}
+
+ .formbody h2{
+	
+	background-color: #ffc34d;
+    color: black;
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,40,45);
+}
+
+.loginform{
+	background-color: #ffc34d;
+	color: black;
+    display: block;
+	margin: auto;
+    width: 20%;
+	font-size: 40px;
+	padding: 1%;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,45);
+}
+
+input, style{
+	margin: 4px;
+	padding: 4px;
+    background-color: white;
+    border-style: solid;
+    border-color: white black black white;
+}
+
+input:hover, select:hover{
+	border-left-color: blue;
+	border-top-color:blue;
+}
+
+.banner{
+
+	position: absolute;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+	background: #f5f6f6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+    font-size: 50pt;
+    z-index: -1;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+
+#footer {
+	position: fixed;
+	left:0px;
+	right:0px;
+	bottom: 0px;
+	padding: 10px;
+	background: #ffaa00;
+	font-weight: bold;
+	text-align: center;
+} 
+
+/* Dropdown Button */
+.dropbtn {
+	position: relative;
+    background-color: #ffc34d;
+    color: white;
+    font-size: 40px;
+	font-family: "sans";
+    border: none;
+    cursor: pointer;
+	padding: 8%;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #ffaa00;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.registrationForm table{
+    padding: 25px;
+    background: #ffc34d;
+    height: auto;
+    text-align: left;
+    line-height: 20px;
+}
+
+.registrationForm {
+	margin: auto;
+    position: relative;
+    width: 700px;
+    height: auto;
+	color: black;
+	font-size: 20px;
+	padding: 1%;
+}
+
+.error{
+    color: red;
+    font-size: 12pt;
+    font-style: italic;
+    visibility: hidden;
+}
+
+.php{
+	color: black;
+    position: relative;
+    padding: 1%;
+}
+
+.users{
+	color: black;
+    position: relative;
+    float: left;
+	left: 12.7%;
+    top: 400px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ffc34d}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
