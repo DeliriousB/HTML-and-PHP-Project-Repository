@@ -1,0 +1,95 @@
+/*
+	Site By: Billy Lam
+	Last Updated 5/23/16
+	Site Purpose: To show off figures and merch I've amassed and give reviews or gush about such and such.
+*/
+
+
+.Donate{
+	max-width: 84%;
+}
+::-webkit-input-placeholder {
+   
+   color: #FFFFFF;
+   
+}
+
+input::-moz-placeholder {
+   
+   color: #FFFFFF;
+   opacity: 1;
+   
+}
+
+:-ms-input-placeholder {
+
+   color: #FFFFFF;
+   
+}
+
+
+fieldset {
+
+	margin: 8px;
+	border: none;
+	background-color: #ffc34d;
+
+}
+
+input {
+
+	color:white;
+	font-family: Arial;
+	background-color: black;
+	margin: 4px;
+	border: none;
+	padding: 8px;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+
+}
+
+input:hover {
+
+	border-top: 1px solid yellow;
+	border-left: 1px solid yellow;
+
+}
+
+input:focus {
+
+	border-top: 1px solid yellow;
+	border-left: 1px solid yellow;
+	border-right: 1px solid yellow;
+	border-bottom: 1px solid yellow;
+
+}
+
+#state {
+
+	background-color:black;
+	color:white;
+	
+}
+
+optgroup[label="USA"], optgroup[label="CANADA"]{
+
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+
+}
+
+.buttons{
+	position: relative;
+	text-align: center;
+	right: 10%;
+	font-size: 20px;
+}
+
+.indent{
+	position: relative;
+	left: 3%;
+}

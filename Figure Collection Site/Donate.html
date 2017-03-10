@@ -1,0 +1,223 @@
+<!--
+	Site By: Billy Lam
+	Last Updated 5/23/16
+	Site Purpose: To show off figures and merch I've amassed and give reviews or gush about such and such.
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>DB's Figures and Merch</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+    <script src="clock.js" type="text/javascript"></script>
+	<script src="animation.js" type="text/javascript"></script>	
+	<script src="switch_style.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="default" type="text/css" title="default" a href="index.css"></a>
+	<link rel="alternate stylesheet" type="text/css" title="fuwafuwa" a href="index-alt.css"></a>
+</head>
+
+<body  onload="clock()" onload="set_style_from_cookie()">
+
+<form>
+	Pick a Theme:
+	<input type="submit" onclick="switch_style('default');return false;" name="theme" value="default" id="default">
+	<input type="submit" onclick="switch_style('fuwafuwa');return false;" name="theme" value="fuwafuwa" id="fuwafuwa">
+</form>
+
+<div id="txt" div class="clock"></div>
+
+<div align="center"><table border=0 id= "main" width="700"></div>
+
+<h1>
+<tr>
+	
+	<div align="center"><img src="MH1.jpg" width="800" height="200"/></div>
+
+</tr>
+</h1>
+
+<tr id= "navRow">
+	<div class="menu" align="center">
+		<a href="index.html" ><font color="white">Home</a>
+		<a href="Collection.html"><font color="white">Collection</a>
+		<a href="Reviews.html"><font color="white">Reviews</a>
+		<a href="Donate.html"><font color="white">Donate</a>
+		<a href="Links.html"><font color="white">Links</a>
+	</div>
+</tr>
+
+<tr>
+
+
+	<td id= "center-right" colspan= "10">
+		<div class= "Donate">
+		
+			<div id= "home">
+				
+				<font color="black" font size = "6"><div align="center"><u><i>Donate</i></u></div></font> 
+				
+				<br> 
+				<font color="black" font size = "5"><p>
+					By no means is this required but I would be very appreciative to anyone who donates
+					to support me or the site. Below you'll find a form in which you can submit payment
+					information and a donation amount that will go directly to maintaining the website
+					and the quality of content. If you do donate know that I am very grateful.
+				</p></font>
+				<br>
+							
+
+			</div>
+
+			<form action="https://domfu.com/cgi-bin/ics/echo" method="post" name="FormName">
+			<div class="personal">
+			<fieldset style="width:575px" id="personal">
+			Personal Information
+			<br>
+				<label for="name">Name: </label><input type="text" placeholder="First" name="FIRST" size="20" id=
+				"name" /><input type="text" placeholder="Last" name="LAST" size="20" />
+				<br />
+				<label for="address">Address:</label> <input type="text" placeholder="Address 1" name="ADDRESS" size="42" id=
+				"address" />
+				<br />
+				<label for="city">City:</label> <input type="text" placeholder="Address 2" name="LOCALITY" size="41" id=
+				"city" />
+				<br />
+				<label for="state">State/Providence:</label>
+				<select size=1 id="state" name="REGION">
+				<option>Choose</option>
+				<optgroup label="USA" class="thisisred">
+				<option>Alabama (AL)</option>
+				<option>Alaska (AK)</option>
+				<option>Arizona (AZ)</option>
+				<option>Arkansas (AR)</option>
+				<option>California (CA)</option>
+				<option>Colorado (CO)</option>
+				<option>Connecticut (CT)</option>
+				<option>Delaware (DE)</option>
+				<option>Florida (FL)</option>
+				<option>Georgia (GA)</option>
+				<option>Hawaii (HI)</option>
+				<option>Idaho (ID)</option>
+				<option>Illinois (IL)</option>
+				<option>Indiana (IN)</option>
+				<option>Iowa (IA)</option>
+				<option>Kansas (KS)</option>
+				<option>Kentucky (KY)</option>
+				<option>Louisiana (LA)</option>
+				<option>Maine (ME)</option>
+				<option>Maryland (MD)</option>
+				<option>Massachusetts (MA)</option>
+				<option>Michigan (MI)</option>
+				<option>Minnesota (MN)</option>
+				<option>Mississippi (MS)</option>
+				<option>Missouri (MO)</option>
+				<option>Montana (MT)</option>
+				<option>Nebraska (NE)</option>
+				<option>Nevada (NV)</option>
+				<option>New Hampshire (NH)</option>
+				<option>New Jersey (NJ)</option>
+				<option>New Mexico (NM)</option>
+				<option>New York (NY)</option>
+				<option>North Carolina (NC)</option>
+				<option>North Dakota (ND)</option>
+				<option>Ohio (OH)</option>
+				<option>Oklahoma (OK)</option>
+				<option>Oregon (OR)</option>
+				<option>Pennsylvania (PA)</option>
+				<option>Rhode Island (RI)</option>
+				<option>South Carolina (SC)</option>
+				<option>South Dakota (SD)</option>
+				<option>Tennessee (TN)</option>
+				<option>Texas (TX)</option>
+				<option>Utah (UT)</option>
+				<option>Vermont (VT)</option>
+				<option>Virginia (VA)</option>
+				<option>Washington (WA)</option>
+				<option>West Virginia (WV)</option>
+				<option>Wisconsin (WI)</option>
+				<option>Wyoming (WY)</option>
+				</optgroup>
+				<optgroup label="CANADA">
+				<option>Alberta (AB)</option>
+				<option>British Columbia (BC)</option>
+				<option>Manitoba (MB)</option>
+				<option>New Brunswick (NB)</option>
+				<option>New Foundland (NL)</option>
+				<option>Nova Scotia (NS)</option>
+				<option>Ontario (ON)</option>
+				<option>Prince Edward Island (PE)</option>
+				<option>Quebec (QC)</option>
+				<option>Saskatchewan (SL)</option>
+				</optgroup>
+				</select>
+				<br />
+				<label for="zip">ZIP/Postal Code: </label><input type="text" name="POSTAL" id=
+				"zip" size="19" />
+				<br />
+				<label for="phone">Phone: </label><input type="text" name="PHONE" size="20" id=
+				"phone" />
+				<br>
+				<label for="phone">Name on Card: </label><input type="text" name="PHONE" size="20" id=
+				"phone" />
+				<br>
+				<label for="phone">Card Number: </label><input type="text" name="PHONE" size="20" id=
+				"phone" />
+				<br>
+				<label for="state">Credit Card Type:</label>
+				<select size=1 id="state" name="REGION">
+				<option>Choose</option>
+				<option>VISA</option>
+				<option>Mastercard</option>
+				<option>American Express</option>
+				<option>Discover</option>
+
+				</select>
+			</fieldset>
+			</div>
+			<label for="sub">Recieve Emails About Website Updates? </label>
+			<br>
+			<input type="radio" name="SUBSCRIBE" id="sub" value="Yes" />Yes <input type="radio" name="SUBSCRIPTION" value="No" />No
+			<div class="mailing">
+			<fieldset style="width:575px" id="mailing">
+			<label for="phone">Enter Email Address</label>
+			<br>
+			<br>
+			
+			<div class="indent">
+				<input type="text" name="PHONE" size="70" id="phone" />
+			</div>
+			
+			<br>
+			</fieldset>
+			</div>
+			<div class="buttons">
+			<input type="submit" value="Send" class="btn"/>
+			<input type="reset" value="Reset" class="btn"/>
+			</div>
+			</form>
+			
+
+		</div>
+		
+	</td>
+</tr>
+
+
+</table>
+
+<div align="center-left" div class="credit"><table border=1>
+
+	<td>
+		<div><font color="black" font size="5"><u>Site Created and Maintained by Billy Lam - 2016</u></div>
+	</td>
+
+</div>
+
+
+</body>
+
+</html>
